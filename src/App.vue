@@ -1,5 +1,9 @@
 <template>
-  <router-view></router-view>
+  <div>
+    <router-view></router-view>
+    <h1>123站著穿</h1>
+  </div>
+  
 </template>
 
 <script>
