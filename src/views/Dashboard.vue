@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <WidgetsDropdown/>
+  <div style="text-align:center;">
+    <h1 style="line-height:22">Welcome To Thevroom!!!</h1>
+    <!-- <WidgetsDropdown/>
     <CCard>
       <CCardBody>
         <CRow>
@@ -449,7 +450,7 @@
           </CCardBody>
         </CCard>
       </CCol>
-    </CRow>
+    </CRow> -->
   </div>
 </template>
 

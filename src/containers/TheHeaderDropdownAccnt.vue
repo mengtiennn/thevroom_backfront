@@ -7,10 +7,10 @@
   >
     <template #toggler>
       <CHeaderNavLink>
-        <div class="c-avatar">
+        <div class="c-avatar mr-3 ml-5">
           <img
-            src="img/avatars/6.jpg"
-            class="c-avatar-img "
+            src="../assets/logo-transparent.png"
+            style="width:100px;height:100px"
           />
         </div>
       </CHeaderNavLink>
