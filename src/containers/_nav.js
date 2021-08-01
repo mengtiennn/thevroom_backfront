@@ -11,7 +11,7 @@ export default [
       {
         _name: 'CSidebarNavDropdown',
         name: '商品管理',
-        route: '/product',
+        route: '/base/tables',
         icon: 'cil-puzzle',
         items: [
           {
@@ -27,8 +27,8 @@ export default [
       {
         _name: 'CSidebarNavDropdown',
         name: '訂單管理',
-        route: '/buttons',
-        icon: 'cil-cursor',
+        route: '/base/tables',
+        icon: 'cil-puzzle',
         items: [
           {
             name: '車輛訂單管理',
@@ -41,16 +41,26 @@ export default [
         ]
       },
       {
-        _name: 'CSidebarNavItem',
-        name: '會員資料管理',
-        to: '/charts',
-        icon: 'cil-chart-pie'
+        _name: 'CSidebarNavDropdown',
+        name: '討論區管理',
+        route: '/base/tables',
+        icon: 'cil-cursor',
+        items: [
+          {
+            name: '討論文章管理',
+            to: '/buttons/standard-buttons'
+          },
+          {
+            name: '檢舉留言管理',
+            to: '/buttons/dropdowns'
+          }
+        ]
       },
       {
         _name: 'CSidebarNavItem',
-        name: '討論區管理',
-        to: '/base/forms',
-        icon: 'cil-star'
+        name: '會員資料管理',
+        to: '//base/cards',
+        icon: 'cil-chart-pie'
       },
       {
         _name: 'CSidebarNavItem',
